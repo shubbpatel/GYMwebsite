@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubb's GYM</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        /* css reset  */
+        
+        body {
+            font-style: italic;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/pic5.jpg');
+            background-size: 1991px 3000px;
+            height: 4248px;
+        }
+        
+        .left {
+            border: 2px solid rgb(3, 57, 73);
+            left: 50px;
+            top: 22px;
+            position: absolute;
+            display: inline-block;
+        }
+        
+        .left img {
+            display: block;
+            margin: 5px auto;
+            border-radius: 360px;
+            width: 75px;
+        }
+        
+        .left div {
+            text-align: center;
+            font: italic;
+            font-size: 20px;
+        }
+        
+        .mid {
+            top: 44px;
+            display: block;
+            width: 40%;
+            margin: 45px auto;
+        }
+        
+        .right {
+            right: 50px;
+            top: 44px;
+            position: absolute;
+            display: inline-block;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar li {
+            display: inline-block;
+        }
+        
+        .navbar li a {
+            font-style: italic;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 20px 20px;
+        }
+        
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+        
+        .btn {
+            font-size: 10px;
+            margin: 5px 5px;
+            background-color: rgb(114, 212, 236);
+            color: rgb(37, 3, 3);
+            font-style: italic;
+            padding: 5px 5px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: rgb(14, 22, 2);
+        }
+        
+        .container {
+            margin-top: 100px;
+            display: block;
+            margin: 5px auto;
+            padding: 33px 20px;
+            width: 40%;
+            border-radius: 10px;
+        }
+        
+        .formgroup input {
+            font-weight: bold;
+            width: 300px;
+            font-size: small;
+            text-align: center;
+            display: block;
+            margin: 5px auto;
+            padding: 5px 5px;
+            border: 1px solid rgb(3, 57, 73);
+            border-radius: 5px;
+            font-style: italic;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: larger;
+        }
+        
+        .button {
+            display: block;
+            text-align: center;
+            margin: 5px auto;
+            font-size: medium;
+            font-style: italic;
+            width: 300px;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+        
+        .button:hover {
+            background-color: rgb(3, 57, 73);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo  -->
+            <img src="img/dumble.jpeg" alt="">
+            <div>Shubb's Fitness</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navigation menu -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a> </li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right for buttons -->
+            <button class="btn">Call Us Now
+</button>
+            <button class="btn">E-mail Us</button> </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best GYM in Indore</h1>
+        <form action="">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Monile No.">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your E-mail">
+            </div>
+
+            <button class="button">Submit</button>
+
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>
